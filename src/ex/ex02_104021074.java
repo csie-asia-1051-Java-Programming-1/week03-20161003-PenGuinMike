@@ -21,7 +21,7 @@ public class ex02_104021074 {
 		}else if(x>0&&x>=65&&x<=90){
 			System.out.print("大寫");
 		}else{
-			System.out.print("erro:404 Not Found");
+			System.out.print("其他");
 		}
 
 	}
