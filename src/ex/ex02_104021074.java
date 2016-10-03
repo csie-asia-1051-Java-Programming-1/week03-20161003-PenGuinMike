@@ -15,9 +15,9 @@ public class ex02_104021074 {
 		Scanner scn =new Scanner(System.in);
 		System.out.print("請輸入字元: ");
 		char x = scn.next().charAt(0);
-		System.out.print((int)x);
+		//System.out.print((int)x);
 		if(x>0&&x>=97&&x<=122){
-			System.out.print("\t"+"小寫");
+			System.out.print("小寫");
 		}else if(x>0&&x>=65&&x<=90){
 			System.out.print("大寫");
 		}else{
